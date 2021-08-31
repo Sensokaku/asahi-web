@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     position: relative;
+    filter: brightness(0.8);
 }
 
 .main-block {
