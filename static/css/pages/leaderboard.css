@@ -61,18 +61,6 @@ tr td {
     color: #fff;
 }
 
-.leaderboard-column:first-child .column-player-rank {
-    color: rgb(247, 200, 45) !important;
-}
-
-.leaderboard-column:nth-child(2) .column-player-rank {
-    color: rgb(192, 192, 192) !important;
-}
-
-.leaderboard-column:nth-child(3) .column-player-rank {
-    color: rgb(192, 136, 99) !important;
-}
-
 .column-player-name {
     padding: 10px 10px;
     font-weight: 600;
@@ -122,6 +110,18 @@ table th {
 
 .leaderboard-column:hover td:not(:first-child) {
     background-color: hsl(var(--main), 20%, 30%);
+}
+
+.leaderboard-column:first-child .column-player-rank {
+    color: rgb(247, 200, 45) !important;
+}
+
+.leaderboard-column:nth-child(2) .column-player-rank {
+    color: rgb(192, 192, 192) !important;
+}
+
+.leaderboard-column:nth-child(3) .column-player-rank {
+    color: rgb(192, 136, 99) !important;
 }
 
 .main-banner {
