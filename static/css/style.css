@@ -5,6 +5,12 @@
     src: url(/static/fonts/extra.ttf) format("truetype");
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Blinker&display=swap");
+
+* {
+    font-family: "Blinker", sans-serif;
+}
+
 /* layout */
 
 body {
