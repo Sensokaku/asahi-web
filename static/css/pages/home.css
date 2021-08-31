@@ -47,6 +47,12 @@
     background-color: rgba(0, 0, 0, 0) !important;
 }
 
+@media screen and (max-width: 1023px) {
+    #navbar {
+        background-color: #343a40 !important;
+    }
+}
+
 .hero.is-fullheight-with-navbar {
     min-height: 100vh !important;
 }
