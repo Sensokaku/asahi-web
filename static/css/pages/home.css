@@ -38,9 +38,17 @@
 }
 
 .my-con {
-    margin: 53px 0 0 0;
+    margin: 0 0 0 0;
     width: 100%;
     max-width: inherit;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.hero.is-fullheight-with-navbar {
+    min-height: 100vh !important;
 }
 
 #title,
