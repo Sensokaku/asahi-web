@@ -16,11 +16,13 @@ a:hover {
 }
 
 .leaderboard-banner {
-    background-color: hsl(var(--main), 30%, 50%);
     height: 194px;
     border-radius: 0;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
+    background: linear-gradient(45deg, #86cecb, #137a7f, #e12885);
+    -webkit-animation: colors 13s ease infinite;
+    animation: colors 13s ease infinite;
 }
 
 .leaderboard-column {
