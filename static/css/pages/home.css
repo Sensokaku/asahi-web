@@ -8,11 +8,29 @@
     /* pippi.png:   width: 372px; height: 432px;  */
     width: 592px;
     height: 511px;
-    left: 50px;
     margin: 0;
     padding: 0;
-    position: relative;
-    filter: brightness(0.8);
+    position: absolute;
+    filter: opacity(0.4);
+}
+
+.homepage-buttons {
+    justify-content: center;
+}
+
+.homepage-text {
+    text-align: center;
+    font-size: 5rem !important;
+}
+
+.homepage-subtitle {
+    text-align: center;
+    font-size: 2rem !important;
+}
+
+.homepage-column {
+    flex-grow: 1;
+    z-index: 1;
 }
 
 .main-block {
