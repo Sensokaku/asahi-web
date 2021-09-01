@@ -33,6 +33,13 @@
     z-index: 1;
 }
 
+.homepage-noti {
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    background-color: transparent !important;
+}
+
 .main-block {
     width: 1024px;
 }
@@ -44,12 +51,16 @@
 }
 
 #navbar {
-    background-color: rgba(0, 0, 0, 0) !important;
+    background-color: transparent !important;
 }
 
 @media screen and (max-width: 1023px) {
     #navbar {
         background-color: #343a40 !important;
+    }
+
+    .homepage-noti {
+        position: relative;
     }
 }
 
@@ -84,6 +95,7 @@
         width: initial;
         height: 285px;
     }
+
     #mascot {
         display: none !important;
     }
