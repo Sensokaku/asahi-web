@@ -34,7 +34,7 @@
 
         <div class="navbar-end">
             {% if session.authenticated %}
-            <div class="navbar-item has-dropdown is-hoverable">
+            <div class="user-dropdown navbar-item has-dropdown is-hoverable button is-primary">
                 <a class="navbar-link">
                     {{ session.user_data['name'] }}
                 </a>
