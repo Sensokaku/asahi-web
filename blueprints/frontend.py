@@ -259,7 +259,7 @@ async def settings_password_post():
         'FROM users '
         'WHERE id = %s',
         [session['user_data']['id']])
-    )['pw_bcrypt'].encode('ISO-8859-1').decode('unicode-escape').encode('ISO-8859-1')
+    ).encode('ISO-8859-1').decode('unicode-escape').encode('ISO-8859-1')
 
     pw_md5 = hashlib.md5(old_password.encode()).hexdigest().encode()
 
